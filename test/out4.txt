@@ -1,0 +1,68 @@
+Rastgele sayı listesini virgüllerle ayırarak girin: Populasyon boyutunu girin: Seçilecek ebeveyn sayısını girin: Mutasyon olasılığını girin: İterasyon sayısını girin: Çanta boyutunu girin(W): Elemanların ağırlıklarını virgülle ayırarak girin: Elemanların değerlerini virgülle ayırarak girin: Random List: [0.5, 0.9, 0.1, 0.2, 0.7, 0.6, 0.4, 0.3, 0.6, 0.8, 0.1]
+
+Generation: 0
+Population: [('11001', 103), ('10011', 0), ('01100', 9), ('11001', 103), ('10110', 0)]
+Applying Crossover
+Parents:['11001', '11001'] at point:2
+Offspring: ['11001', '11001']
+Applying mutation to: ('11001', '11001')
+Mutated offspring: ['11101', '01001']
+Applying Crossover
+Parents:['01100', '10110'] at point:3
+Offspring: ['01110', '10100']
+Applying mutation to: ('01110', '10100')
+Mutated offspring: ['00110', '10101']
+
+Generation: 1
+Population: [('10101', 106), ('11001', 103), ('11001', 103), ('01001', 83), ('00110', 31)]
+Applying Crossover
+Parents:['11001', '00110'] at point:4
+Offspring: ['11000', '00111']
+Applying mutation to: ('11000', '00111')
+Mutated offspring: ['11000', '10101']
+Applying Crossover
+Parents:['00110', '00110'] at point:3
+Offspring: ['00110', '00110']
+Applying mutation to: ('00110', '00110')
+Mutated offspring: ['01111', '00110']
+
+Generation: 2
+Population: [('10101', 106), ('10101', 106), ('11001', 103), ('11001', 103), ('01001', 83)]
+Applying Crossover
+Parents:['11001', '11001'] at point:5
+Offspring: ['11001', '11001']
+Applying mutation to: ('11001', '11001')
+Mutated offspring: ['01001', '11011']
+Applying Crossover
+Parents:['11011', '10101'] at point:3
+Offspring: ['11001', '10111']
+Applying mutation to: ('11001', '10111')
+Mutated offspring: ['11000', '10011']
+
+Generation: 3
+Population: [('10101', 106), ('10101', 106), ('11001', 103), ('11001', 103), ('01001', 83)]
+Applying Crossover
+Parents:['11001', '10101'] at point:4
+Offspring: ['11001', '10101']
+Applying mutation to: ('11001', '10101')
+Mutated offspring: ['01011', '10101']
+Applying Crossover
+Parents:['01011', '10101'] at point:1
+Offspring: ['00101', '11011']
+Applying mutation to: ('00101', '11011')
+Mutated offspring: ['00101', '11111']
+
+Generation: 4
+Population: [('10101', 106), ('10101', 106), ('10101', 106), ('11001', 103), ('11001', 103)]
+Applying Crossover
+Parents:['10101', '10101'] at point:2
+Offspring: ['10101', '10101']
+Applying mutation to: ('10101', '10101')
+Mutated offspring: ['10111', '11101']
+Applying Crossover
+Parents:['10101', '10101'] at point:1
+Offspring: ['10101', '10101']
+Applying mutation to: ('10101', '10101')
+Mutated offspring: ['10001', '10101']
+
+Final Population: [('10101', 106), ('10101', 106), ('10101', 106), ('10101', 106), ('11001', 103)]

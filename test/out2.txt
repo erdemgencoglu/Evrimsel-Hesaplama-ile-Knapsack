@@ -1,0 +1,393 @@
+Rastgele sayı listesini virgüllerle ayırarak girin: Populasyon boyutunu girin: Seçilecek ebeveyn sayısını girin: Mutasyon olasılığını girin: İterasyon sayısını girin: Çanta boyutunu girin(W): Elemanların ağırlıklarını virgülle ayırarak girin: Elemanların değerlerini virgülle ayırarak girin: Random List: [0.51, 0.07, 0.03, 0.2, 0.57, 0.49, 0.25, 0.02, 0.81, 0.61, 0.19, 0.15, 0.2, 0.66, 0.02, 0.68, 0.44, 0.59, 0.97, 1.0, 0.53, 0.79, 0.12, 0.83, 0.45, 1.0, 0.15, 0.52, 0.97, 0.36]
+
+Generation: 0
+Population: [('10001', 40), ('00011', 31), ('00010', 15), ('10111', 0), ('11010', 0), ('10110', 0), ('10001', 40), ('00011', 31), ('00010', 15), ('10111', 0), ('11010', 0), ('10110', 0), ('10001', 40), ('00011', 31), ('00010', 15), ('10111', 0), ('11010', 0), ('10110', 0), ('10001', 40), ('00011', 31), ('00010', 15), ('10111', 0), ('11010', 0), ('10110', 0), ('10001', 40), ('00011', 31), ('00010', 15), ('10111', 0), ('11010', 0), ('10110', 0)]
+Applying Crossover
+Parents:['10111', '00010'] at point:3
+Offspring: ['10110', '00011']
+Applying mutation to: ('10110', '00011')
+Mutated offspring: ['11110', '01011']
+Applying Crossover
+Parents:['11010', '10001'] at point:1
+Offspring: ['10001', '11010']
+Applying mutation to: ('10001', '11010')
+Mutated offspring: ['10101', '11010']
+Applying Crossover
+Parents:['11010', '11010'] at point:1
+Offspring: ['11010', '11010']
+Applying mutation to: ('11010', '11010')
+Mutated offspring: ['11010', '11011']
+Applying Crossover
+Parents:['00011', '00010'] at point:1
+Offspring: ['00010', '00011']
+Applying mutation to: ('00010', '00011')
+Mutated offspring: ['00000', '00011']
+Applying Crossover
+Parents:['10001', '00011'] at point:1
+Offspring: ['10011', '00001']
+Applying mutation to: ('10011', '00001')
+Mutated offspring: ['10011', '00001']
+Applying Crossover
+Parents:['00001', '10110'] at point:5
+Offspring: ['00001', '10110']
+Applying mutation to: ('00001', '10110')
+Mutated offspring: ['00001', '11110']
+Applying Crossover
+Parents:['11010', '10001'] at point:2
+Offspring: ['11001', '10010']
+Applying mutation to: ('11001', '10010')
+Mutated offspring: ['01001', '10110']
+Applying Crossover
+Parents:['00011', '01001'] at point:3
+Offspring: ['00001', '01011']
+Applying mutation to: ('00001', '01011')
+Mutated offspring: ['00001', '01011']
+Applying Crossover
+Parents:['00001', '11010'] at point:5
+Offspring: ['00001', '11010']
+Applying mutation to: ('00001', '11010')
+Mutated offspring: ['00011', '11000']
+Applying Crossover
+Parents:['10110', '10111'] at point:4
+Offspring: ['10111', '10110']
+Applying mutation to: ('10111', '10110')
+Mutated offspring: ['10110', '10110']
+Applying Crossover
+Parents:['00010', '00001'] at point:3
+Offspring: ['00001', '00010']
+Applying mutation to: ('00001', '00010')
+Mutated offspring: ['00001', '00010']
+Applying Crossover
+Parents:['10111', '00011'] at point:1
+Offspring: ['10011', '00111']
+Applying mutation to: ('10011', '00111')
+Mutated offspring: ['00011', '10111']
+Applying Crossover
+Parents:['11010', '11011'] at point:1
+Offspring: ['11011', '11010']
+Applying mutation to: ('11011', '11010')
+Mutated offspring: ['10011', '11010']
+Applying Crossover
+Parents:['00011', '00011'] at point:5
+Offspring: ['00011', '00011']
+Applying mutation to: ('00011', '00011')
+Mutated offspring: ['00011', '00001']
+Applying Crossover
+Parents:['11010', '11010'] at point:3
+Offspring: ['11010', '11010']
+Applying mutation to: ('11010', '11010')
+Mutated offspring: ['11110', '11011']
+
+Generation: 1
+Population: [('01011', 44), ('01011', 44), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('11000', 37), ('00011', 31), ('00011', 31), ('00011', 31), ('00011', 31), ('00011', 31), ('00011', 31), ('00011', 31), ('00011', 31), ('00011', 31), ('01001', 29), ('00001', 16), ('00001', 16), ('00001', 16), ('00001', 16), ('00001', 16), ('00010', 15), ('00010', 15), ('00010', 15), ('00010', 15), ('00010', 15), ('00010', 15), ('10111', 0)]
+Applying Crossover
+Parents:['00001', '00011'] at point:4
+Offspring: ['00001', '00011']
+Applying mutation to: ('00001', '00011')
+Mutated offspring: ['00001', '00011']
+Applying Crossover
+Parents:['10001', '00011'] at point:1
+Offspring: ['10011', '00001']
+Applying mutation to: ('10011', '00001')
+Mutated offspring: ['10011', '10001']
+Applying Crossover
+Parents:['01011', '00010'] at point:1
+Offspring: ['00010', '01011']
+Applying mutation to: ('00010', '01011')
+Mutated offspring: ['00010', '00011']
+Applying Crossover
+Parents:['00010', '00011'] at point:5
+Offspring: ['00010', '00011']
+Applying mutation to: ('00010', '00011')
+Mutated offspring: ['00010', '00011']
+Applying Crossover
+Parents:['00011', '00001'] at point:2
+Offspring: ['00001', '00011']
+Applying mutation to: ('00001', '00011')
+Mutated offspring: ['00101', '00111']
+Applying Crossover
+Parents:['11000', '10001'] at point:1
+Offspring: ['10001', '11000']
+Applying mutation to: ('10001', '11000')
+Mutated offspring: ['10011', '11000']
+Applying Crossover
+Parents:['10001', '10001'] at point:4
+Offspring: ['10001', '10001']
+Applying mutation to: ('10001', '10001')
+Mutated offspring: ['10001', '10001']
+Applying Crossover
+Parents:['01011', '00011'] at point:1
+Offspring: ['00011', '01011']
+Applying mutation to: ('00011', '01011')
+Mutated offspring: ['00010', '01011']
+Applying Crossover
+Parents:['00001', '01011'] at point:4
+Offspring: ['00001', '01011']
+Applying mutation to: ('00001', '01011')
+Mutated offspring: ['10001', '01011']
+Applying Crossover
+Parents:['00001', '01011'] at point:3
+Offspring: ['00011', '01001']
+Applying mutation to: ('00011', '01001')
+Mutated offspring: ['00011', '01101']
+Applying Crossover
+Parents:['00010', '00011'] at point:3
+Offspring: ['00011', '00010']
+Applying mutation to: ('00011', '00010')
+Mutated offspring: ['01011', '00000']
+Applying Crossover
+Parents:['00001', '00001'] at point:3
+Offspring: ['00001', '00001']
+Applying mutation to: ('00001', '00001')
+Mutated offspring: ['00001', '00001']
+Applying Crossover
+Parents:['00010', '00001'] at point:3
+Offspring: ['00001', '00010']
+Applying mutation to: ('00001', '00010')
+Mutated offspring: ['00000', '00011']
+Applying Crossover
+Parents:['01011', '00010'] at point:5
+Offspring: ['01011', '00010']
+Applying mutation to: ('01011', '00010')
+Mutated offspring: ['01011', '10010']
+Applying Crossover
+Parents:['10010', '00001'] at point:5
+Offspring: ['10010', '00001']
+Applying mutation to: ('10010', '00001')
+Mutated offspring: ['10010', '00001']
+
+Generation: 2
+Population: [('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('00101', 39), ('10010', 39), ('10010', 39), ('11000', 37), ('11000', 37), ('00011', 31), ('00011', 31), ('00011', 31), ('00011', 31), ('00011', 31), ('00011', 31), ('00011', 31), ('00011', 31), ('00011', 31), ('00011', 31)]
+Applying Crossover
+Parents:['00101', '01011'] at point:3
+Offspring: ['00111', '01001']
+Applying mutation to: ('00111', '01001')
+Mutated offspring: ['01111', '00001']
+Applying Crossover
+Parents:['01011', '10001'] at point:1
+Offspring: ['00001', '11011']
+Applying mutation to: ('00001', '11011')
+Mutated offspring: ['00101', '11011']
+Applying Crossover
+Parents:['01011', '00011'] at point:1
+Offspring: ['00011', '01011']
+Applying mutation to: ('00011', '01011')
+Mutated offspring: ['00011', '01010']
+Applying Crossover
+Parents:['10001', '00011'] at point:1
+Offspring: ['10011', '00001']
+Applying mutation to: ('10011', '00001')
+Mutated offspring: ['10001', '00001']
+Applying Crossover
+Parents:['01011', '00011'] at point:1
+Offspring: ['00011', '01011']
+Applying mutation to: ('00011', '01011')
+Mutated offspring: ['00011', '01011']
+Applying Crossover
+Parents:['01011', '01011'] at point:5
+Offspring: ['01011', '01011']
+Applying mutation to: ('01011', '01011')
+Mutated offspring: ['01011', '00011']
+Applying Crossover
+Parents:['10001', '01011'] at point:2
+Offspring: ['10011', '01001']
+Applying mutation to: ('10011', '01001')
+Mutated offspring: ['00011', '01101']
+Applying Crossover
+Parents:['00011', '00011'] at point:3
+Offspring: ['00011', '00011']
+Applying mutation to: ('00011', '00011')
+Mutated offspring: ['00011', '00011']
+Applying Crossover
+Parents:['00011', '10010'] at point:5
+Offspring: ['00011', '10010']
+Applying mutation to: ('00011', '10010')
+Mutated offspring: ['00001', '10000']
+Applying Crossover
+Parents:['00011', '10001'] at point:4
+Offspring: ['00011', '10001']
+Applying mutation to: ('00011', '10001')
+Mutated offspring: ['00010', '10001']
+Applying Crossover
+Parents:['00011', '01011'] at point:3
+Offspring: ['00011', '01011']
+Applying mutation to: ('00011', '01011')
+Mutated offspring: ['00011', '01011']
+Applying Crossover
+Parents:['01011', '01011'] at point:1
+Offspring: ['01011', '01011']
+Applying mutation to: ('01011', '01011')
+Mutated offspring: ['11011', '11011']
+Applying Crossover
+Parents:['10001', '01010'] at point:1
+Offspring: ['11010', '00001']
+Applying mutation to: ('11010', '00001')
+Mutated offspring: ['10010', '00001']
+Applying Crossover
+Parents:['00001', '00011'] at point:5
+Offspring: ['00001', '00011']
+Applying mutation to: ('00001', '00011')
+Mutated offspring: ['00001', '00001']
+Applying Crossover
+Parents:['11011', '00011'] at point:3
+Offspring: ['11011', '00011']
+Applying mutation to: ('11011', '00011')
+Mutated offspring: ['11111', '00010']
+
+Generation: 3
+Population: [('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('00101', 39), ('10010', 39), ('10010', 39), ('00101', 39), ('10010', 39), ('11000', 37), ('11000', 37), ('00011', 31), ('00011', 31), ('00011', 31)]
+Applying Crossover
+Parents:['00101', '10001'] at point:4
+Offspring: ['00101', '10001']
+Applying mutation to: ('00101', '10001')
+Mutated offspring: ['00101', '10001']
+Applying Crossover
+Parents:['01011', '10001'] at point:1
+Offspring: ['00001', '11011']
+Applying mutation to: ('00001', '11011')
+Mutated offspring: ['00001', '01011']
+Applying Crossover
+Parents:['01011', '00011'] at point:1
+Offspring: ['00011', '01011']
+Applying mutation to: ('00011', '01011')
+Mutated offspring: ['00011', '00011']
+Applying Crossover
+Parents:['00011', '00011'] at point:5
+Offspring: ['00011', '00011']
+Applying mutation to: ('00011', '00011')
+Mutated offspring: ['00011', '00011']
+Applying Crossover
+Parents:['10001', '10001'] at point:2
+Offspring: ['10001', '10001']
+Applying mutation to: ('10001', '10001')
+Mutated offspring: ['10101', '10101']
+Applying Crossover
+Parents:['01011', '01011'] at point:1
+Offspring: ['01011', '01011']
+Applying mutation to: ('01011', '01011')
+Mutated offspring: ['01001', '01011']
+Applying Crossover
+Parents:['01011', '01011'] at point:4
+Offspring: ['01011', '01011']
+Applying mutation to: ('01011', '01011')
+Mutated offspring: ['01011', '01011']
+Applying Crossover
+Parents:['01011', '01011'] at point:1
+Offspring: ['01011', '01011']
+Applying mutation to: ('01011', '01011')
+Mutated offspring: ['01010', '01011']
+Applying Crossover
+Parents:['00101', '01011'] at point:4
+Offspring: ['00101', '01011']
+Applying mutation to: ('00101', '01011')
+Mutated offspring: ['10101', '01011']
+Applying Crossover
+Parents:['10010', '01011'] at point:3
+Offspring: ['10011', '01010']
+Applying mutation to: ('10011', '01010')
+Mutated offspring: ['10011', '01110']
+Applying Crossover
+Parents:['10010', '10001'] at point:3
+Offspring: ['10001', '10010']
+Applying mutation to: ('10001', '10010')
+Mutated offspring: ['11001', '10000']
+Applying Crossover
+Parents:['10010', '00101'] at point:3
+Offspring: ['10001', '00110']
+Applying mutation to: ('10001', '00110')
+Mutated offspring: ['10001', '00110']
+Applying Crossover
+Parents:['00011', '10001'] at point:3
+Offspring: ['00001', '10011']
+Applying mutation to: ('00001', '10011')
+Mutated offspring: ['00000', '10010']
+Applying Crossover
+Parents:['01011', '00011'] at point:5
+Offspring: ['01011', '00011']
+Applying mutation to: ('01011', '00011')
+Mutated offspring: ['01011', '10011']
+Applying Crossover
+Parents:['10011', '00101'] at point:5
+Offspring: ['10011', '00101']
+Applying mutation to: ('10011', '00101')
+Mutated offspring: ['10011', '00101']
+
+Generation: 4
+Population: [('01110', 51), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40)]
+Applying Crossover
+Parents:['01011', '01011'] at point:3
+Offspring: ['01011', '01011']
+Applying mutation to: ('01011', '01011')
+Mutated offspring: ['00011', '00011']
+Applying Crossover
+Parents:['01011', '01011'] at point:1
+Offspring: ['01011', '01011']
+Applying mutation to: ('01011', '01011')
+Mutated offspring: ['01111', '01011']
+Applying Crossover
+Parents:['01011', '10001'] at point:1
+Offspring: ['00001', '11011']
+Applying mutation to: ('00001', '11011')
+Mutated offspring: ['00001', '11010']
+Applying Crossover
+Parents:['01011', '10001'] at point:1
+Offspring: ['00001', '11011']
+Applying mutation to: ('00001', '11011')
+Mutated offspring: ['00011', '11011']
+Applying Crossover
+Parents:['01110', '10001'] at point:1
+Offspring: ['00001', '11110']
+Applying mutation to: ('00001', '11110')
+Mutated offspring: ['00001', '11110']
+Applying Crossover
+Parents:['11110', '01011'] at point:5
+Offspring: ['11110', '01011']
+Applying mutation to: ('11110', '01011')
+Mutated offspring: ['11110', '00011']
+Applying Crossover
+Parents:['01011', '01110'] at point:2
+Offspring: ['01110', '01011']
+Applying mutation to: ('01110', '01011')
+Mutated offspring: ['11110', '01111']
+Applying Crossover
+Parents:['10001', '11110'] at point:3
+Offspring: ['10010', '11101']
+Applying mutation to: ('10010', '11101')
+Mutated offspring: ['10010', '11101']
+Applying Crossover
+Parents:['10010', '01011'] at point:5
+Offspring: ['10010', '01011']
+Applying mutation to: ('10010', '01011')
+Mutated offspring: ['10000', '01001']
+Applying Crossover
+Parents:['10001', '01011'] at point:4
+Offspring: ['10001', '01011']
+Applying mutation to: ('10001', '01011')
+Mutated offspring: ['10000', '01011']
+Applying Crossover
+Parents:['10001', '11110'] at point:3
+Offspring: ['10010', '11101']
+Applying mutation to: ('10010', '11101')
+Mutated offspring: ['10010', '11101']
+Applying Crossover
+Parents:['01011', '01011'] at point:1
+Offspring: ['01011', '01011']
+Applying mutation to: ('01011', '01011')
+Mutated offspring: ['11011', '11011']
+Applying Crossover
+Parents:['01011', '11010'] at point:1
+Offspring: ['01010', '11011']
+Applying mutation to: ('01010', '11011')
+Mutated offspring: ['00010', '11011']
+Applying Crossover
+Parents:['10000', '10001'] at point:5
+Offspring: ['10000', '10001']
+Applying mutation to: ('10000', '10001')
+Mutated offspring: ['10000', '10011']
+Applying Crossover
+Parents:['01011', '10001'] at point:3
+Offspring: ['01001', '10011']
+Applying mutation to: ('01001', '10011')
+Mutated offspring: ['01101', '10010']
+
+Final Population: [('01110', 51), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('01011', 44), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40), ('10001', 40)]
